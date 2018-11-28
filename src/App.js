@@ -34,7 +34,7 @@ export default class App extends React.Component {
         <Route exact path ="/" render= { () => (
             <div className="list-books">
             <div className="list-books-title">
-              <h1>MyReads</h1>
+              <h1>MyReads - Book Reading Application</h1>
             </div>
             <div className="list-books-content">
               <div>
@@ -50,10 +50,8 @@ export default class App extends React.Component {
                 <h2 className="bookshelf-titlee">
                     About this Page
                 </h2>
-                <p> Made with 
-                  <i className="fa fa-fw fa-coffee"></i> 
-                  and<i className="fa fa-fw fa-music"></i>
-                  by <b>Himanshu Beniwal</b> </p>
+                <p> Reading the books to be easier! </p>
+                   
               </div>
             </div>
             <div className="open-search">
